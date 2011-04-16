@@ -1,4 +1,6 @@
 HelloRuby::Application.routes.draw do
+  resources :articles
+
   resources :users
 
   get "home/index"
